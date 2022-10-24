@@ -1,0 +1,109 @@
+.Todo {
+    width: 400px;
+    min-height: 600px;
+
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+    background-color: rgba(46, 43, 61, 1);
+
+    border-radius: 2px;
+    box-shadow: 0px 10px 15px rgba(12, 12, 17, 0.732);
+
+    padding: 0;
+    margin: 0;
+
+    padding: 1rem;
+
+    overflow: hidden;
+
+}
+
+.Todo ul {
+    padding: 0;
+    margin: 0;
+    max-height: 320px;
+
+    overflow-y: scroll;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+
+    list-style-type: none;
+}
+
+/* Hide scrollbar for Chrome, Safari and Opera */
+.Todo ul::-webkit-scrollbar {
+    display: none;
+}
+
+.Todo-title {
+    font-size: 56px;
+    margin: 0;
+    padding: 0;
+    margin-top: 0.5em;
+    margin-bottom: 1em;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(241, 225, 250);
+}
+
+#taskText {
+    width: calc(100% - 2rem);
+    height: 50px;
+    display: block;
+
+    padding: 0;
+    margin: 0;
+
+    border: 0;
+    border-radius: 2px;
+
+    padding: 0rem 1rem;
+
+    font-size: 26px;
+
+    margin-bottom: 0.5em;
+
+    color: rgb(241, 225, 250);
+    background-color: rgba(56, 53, 80, 0.845);
+    border-bottom: 2px solid rgba(102, 80, 122, 0.845);
+}
+
+#taskText:focus {
+    outline: none;
+}
+
+.title-text {
+    margin: 0;
+    padding: 0;
+    margin-bottom: 0.5em;
+    color: rgb(241, 225, 250);
+    margin-left: 0.1em;
+}
+
+.taskAmmount {
+    color: rgba(241, 225, 250, 0.4);
+}
+
+.addBtn {
+    width: 14em;
+    height: 2em;
+    border-radius: 2px;
+    font-size: 20px;
+    font-family: inherit;
+    border: none;
+    position: relative;
+    overflow: hidden;
+    z-index: 1;
+    display: block;
+    margin: 0 auto;
+    margin-top: 1.5em;
+    margin-bottom: 1.5em;
+    color: rgb(210, 200, 221);
+    background-color: rgba(56, 53, 80, 0.845);
+    font-weight: 300;
+    cursor: pointer;
+}
+
+.addBtn:hover {
+    background-color: rgba(73, 59, 104, 0.845);
+}

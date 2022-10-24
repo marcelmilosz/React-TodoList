@@ -1,0 +1,68 @@
+/* From uiverse.io */
+.SingleTask {
+    width: 100%;
+    min-height: 50px;
+
+    background-color: rgba(56, 53, 80, 0.845);
+    color: rgb(241, 225, 250);
+    margin-bottom: 0.5rem;
+
+    border-radius: 2px;
+}
+
+.SingleTask li {
+    display: flex;
+    align-items: center;
+    margin-left: 1rem;
+    margin-right: 1rem;
+    min-height: 50px;
+}
+
+.SingleTask p {
+    width: 100%;
+
+    word-wrap: break-word;
+    overflow: hidden;
+}
+
+.task-checked {
+    text-decoration: line-through;
+    color: rgb(141, 132, 147);
+}
+
+.taskBtn {
+    max-width: 35px;
+    max-height: 35px;
+
+    padding: 12px;
+    font-size: 18px;
+
+    cursor: pointer;
+
+    background-color: rgba(30, 28, 43, 0.845);
+
+    border: 0;
+    border-radius: 4px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    margin-left: 0.3em;
+}
+
+.red:hover {
+    color: rgb(220, 34, 74);
+}
+
+.red {
+    color: rgb(160, 26, 73);
+}
+
+.green {
+    color: rgb(34, 141, 89);
+}
+
+.green:hover {
+    color: rgb(49, 206, 130);
+}
